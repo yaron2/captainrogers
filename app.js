@@ -5,7 +5,7 @@ app.use(express.static(path.join(__dirname, 'site')))
 
 app.get('/', function (req, res) {
   //res.sendFile("index.html")
-  res.status(200).send("Hi!!!!!");
+  res.status(200).send("Hi!!!!!!");
 })
 
 var port = process.env.PORT || 3000
