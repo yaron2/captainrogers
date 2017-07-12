@@ -323,6 +323,8 @@ EntityButtonRestart = EntityButton.extend({
 	animSheet: animSheetList.buttonRestart[_LANG_CODE],
 	update: function() {
 	    if(ig.input.pressed('click') && this.inFocus()) {
+			alert("Hi guys");
+
 			if(ig.Sound.enabled)
 				this.sound.play();
 			this.gameOverRunOnce = false;
