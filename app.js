@@ -10,6 +10,6 @@ app.get('/', function (req, res) {
 var port = process.env.PORT || 3000
 
 app.listen(port, function () {
-  console.log("Hi people");
+  console.log("Hi people!");
   console.log('Captain Rogers Is Ready on port ' + port)
 })
