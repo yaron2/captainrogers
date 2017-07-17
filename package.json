@@ -1,7 +1,7 @@
 {
   "name": "captainrogers",
   "version": "1.0.0",
-  "description": "Captain Rogers =======",
+  "description": "Captain Rogers",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
